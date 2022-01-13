@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LISA</class>
+ <widget class="QMainWindow" name="LISA">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1710</width>
+    <height>1146</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>421</width>
+    <height>781</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LISA</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../LINITO.png</normaloff>../LINITO.png</iconset>
+  </property>
+  <widget class="QWidget" name="Result">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QWebEngineView" name="concorWeb"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

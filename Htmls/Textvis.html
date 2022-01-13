@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Outfit:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../textstyle.css">
+    
+    <script src="../click_functions.js">/* java script 파일 연결 */</script>
+
+    <title>DecoNERO</title>
+  </head>
+    
+  <body>
+    <h1 style="font-family: 'Outfit', sans-serif; font-weight: 700"><img src="../UI/DICORA-logo.png" alt="DICORA Logo" style="width:2.0rem;height:2.0rem; margin-right:0.5rem;">DecoNERO</h1>
+    <div class='groove'>
+      <h2 style="font-family: 'Outfit', sans-serif; font-weight: 700; text-indent: 0.9rem; margin-top: 1.2rem; margin-bottom: 0.4rem">TAG COLOR</h2>
+      <input type="checkbox" id='showall' onclick='getCheckboxValue(event)'>
+      <label for="showall" class="showall">show all</label><br>
+
+      <button class="taginfo" style="background-color: #EFBAD6;" onclick="FEA_POent();">FEA_PO</button><button class="taginfo" style="background-color: #FFD6AA;" onclick="FEA_SPent();">FEA_SP</button><button class="taginfo" style="background-color: #C7D6D8;" onclick="FEA_WPent();">FEA_WP</button><button class="taginfo" style="background-color: #CE8467;" onclick="FEA_NGent();">FEA_NG</button><button class="taginfo" style="background-color: #E4A99B;" onclick="FEA_SNent();">FEA_SN</button><button class="taginfo" style="background-color: #838BB2;" onclick="FEA_WNent();">FEA_WN</button>
+      </div>
+    <div class='a'><p>데일리로 멋스럽게 신기 좋은 부츠! /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 정말 잘 빠졌고 옷이 불편한 구석이 없어요 /POSITIVE.</p>
+<p>그리고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 적당히 길구 그리고 스트라이프라 그런지 노멀하면서도 유니크해서 너무 좋은 거 같아요! /POSITIVE.</p>
+<p>근데 어니언 가디건은 소매도 길어서 따뜻하고 귀여워용 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 이뻐서 너무 좋음 /POSITIVE.</p>
+<p>부분 부분 과하지않은 헤짐과 자연스럽게 떨어지는 밑단 헤짐으로 포인트를 준 팬츠! /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">안감이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 너무 마음에 들어서 별 다섯 개 드립니당! /POSITIVE.</p>
+<p>대박임 ㅎㅎ 잘산 거 같아용 ㅎㅎ /POSITIVE.</p>
+<p>소매도 길어서 보호 본능 자극 템 같아여 /POSITIVE.</p>
+<p>역시 박남매 바지는 실패하는 게 없네요 ㅋㅋ /POSITIVE.</p>
+<p>남녀공용으로 제작되어 커플룩으로도 입기좋은 맨투맨 입니다! /POSITIVE.</p>
+<p>한 번도 불량 온 적 없었는데 ㅠㅠ /NEGATIVE.</p>
+<p>매번 바지 길이 남아서 길이 수선해서 입었는데 이 바지는 길이도 딱 이네용! /POSITIVE.</p>
+<p>화이트나 블랙도 넘 넘 탐나요 /POSITIVE.</p>
+<p>흰 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 넘 이뻐 보여서 꼭 사고 싶었어요 /POSITIVE.</p>
+<p>아 그리고 주머니 터져서 왔어요 /NEGATIVE.</p>
+<p>그리고 전체적으로 거인 옷 입은 거 같은 건 그렇다치고 사진 보시면 팔에 단추는 어디갔나요?ㅅ /NEGATIVE.</p>
+<p>이쁜거 들어오면 또 사러 올게요! /POSITIVE.</p>
+<p>정말 이뻐용 오늘 입고 놀러갔는데 다들 이쁘다고 ㅎㅎ /POSITIVE.</p>
+<p>저렴한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격에</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 비해 무난하게 여기저기 잘 입어질 것 같아요 /POSITIVE.</p>
+<p>코트 입어보고 구입하는 편인데 친구가 코트 구경하다가 보여 줘서 이거 너한테 잘 어울릴 것 같다고 해서 구입하게 되었는데 성공했어요 보자마자 지름 ㅋㅋ /POSITIVE.</p>
+<p>메롱샵은 언제나 실망을 안 시켜서 좋네요^0^ /POSITIVE.</p>
+<p>슬렉스 이렇게 맘에 들긴 또 처음이네 /POSITIVE.</p>
+<p>수선 맡기려고 핀으로 고정시켜서 입어보니 예쁘네요 /POSITIVE.</p>
+<p>봄부터 가을까지 활용하기 좋은 원피스에요! /POSITIVE.</p>
+<p>가장 마음에 들었던 건 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색감인데,</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 어두구루죽죽한 카키가 아닌, 화사한 카키색 이라 봄이랑 아주 잘 어울릴 것 같아 /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">디자인도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 진짜 예쁘고 근데 좀 기장이 길고 박시한데 그래서 더 예쁜 거 같아요! /POSITIVE.</p>
+<p><FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">재질도</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 싸보이지 않구요 잘 입겠습니당 /POSITIVE.</p>
+<p>안에 속바지가 있어서 더 더욱 안심돼요 /POSITIVE.</p>
+<p>바지 넣어 입었을 때도 이쁜 것 같아요 /POSITIVE.</p>
+<p>진한 녹색이여서 촌스럽지 않고 목 부분이나 끝 마무리는 깔끔하고 자크도 싸구려 같지 않고 부드럽네요 /POSITIVE.</p>
+<p>블라우스 정말 마음에 듭니다^^! /POSITIVE.</p>
+<p>진짜 제일 많이 찾는 쇼핑몰인데 원가 7천원짜리 가지고 해결도 안될 꺼 계속 왜 전화 붙잡고 있었는지 짜증남 /NEGATIVE.</p>
+<p>단지 목 쪽이 쫌 까끌까글해서 아쉽네용 ㅠㅠ /NEGATIVE.</p>
+<p>키가 155라 저한텐 좀 길었어요 팔도 엄청 긴데 /NEGATIVE.</p>
+<p>다만 처음부터 보풀처럼 약간 실이 돌아 다니는 건 있었구, 하루 맸는데 보풀이 조금씩 올라오는 느낌은 들어요 /NEGATIVE.</p>
+<p>머스타드는 생각보다 쨍한 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">색인데</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 촌스럽지 않구 정말 이뻐요! /POSITIVE.</p>
+<p>그렇다고 가볍게 떨어지는 핏이 아닌 몸을 잡아주는 듯 한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏으로</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 고급스러운 느낌을 주어요 ^^ /POSITIVE.</p>
+<p>저는 사실 굉장히 통통? 퉁퉁? 한 편인데 사이즈 안 맞을까봐 고민하면서 샀어요ㅠㅠ /NEGATIVE.</p>
+<p>제 키는 160인데 허리가 좀 긴 편이라 좀 올려 입었는데도 무릎을 좀 덮어서 종아리가 두꺼워 보이더라구요 /NEGATIVE.</p>
+<p>모델처럼 슬랙스와 함께 해도 멋스럽게 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">코디</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 할수 있어요 : ) /POSITIVE.</p>
+<p>옷 처음 왔을 때 입어봤는데 역시나 제 키에는 스투핏ㅋㅋ /NEGATIVE.</p>
+<p>별 기대 안했는데 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">배송도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 빨랐어요 /POSITIVE.</p>
+<p>기장이 생각했던 것보다 조금 짧은 느낌이 있어요 /NEGATIVE.</p>
+<p>올해 겨울도 따뜻하게 보낼 수 있을 것 같네요! /POSITIVE.</p>
+<p>저는 베이지로 구매했고! 원하던 베이지고 너무 기여워요 /POSITIVE.</p>
+<p>정말 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 끝내주는 요 슬랙스! /POSITIVE.</p>
+<p>끈은 그냥 모양이라서 허리 줄이거나 조절 안 되구요 /NEGATIVE.</p>
+<p>키가 좀 커서 그런가 바지가 좀 짧네요:( /NEGATIVE.</p>
+<p>이런 배기 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏?</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 가을에 그렇게 이뻐 보이더라구 ㅠㅠ /POSITIVE.</p>
+<p>또한, 소맷단과 가슴선의 절개로 포인트를 주어 밋밋해보이지 않고 고급스러운 포인트가 되어 더욱 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">퀄리티를</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 상승시켜주어요- /POSITIVE.</p>
+<p>완전 추천! 집에 있는 하이웨스트 검정스키니에 입었더니 너무 이쁘네요 /POSITIVE.</p>
+<p>정말 생각했던 것처럼 너무 예쁘게 나와서 저는 컬러 별로 다 소장했어용! /POSITIVE.</p>
+<p>제 키는 160인데 허벅지 중간 정도 와요 팔 올리면 다 보일 듯 /NEGATIVE.</p>
+<p>진짜 잘 늘어나서 이렇게 앉으면 찢어지려나 튿어지려나 해서 요리조리 움직여 봤는데 안 튿어지더라고요? /POSITIVE.</p>
+<p>텍스쳐는 많이 뻣뻣하지 않았고 말했다시피 입으면 자연스러운 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏으로</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 풀어질 정도예요 /POSITIVE.</p>
+<p>예뻐요 진짜 고급스럽고 특히 주머니랑 뒷 태가 이쁨여ㅠ /POSITIVE.</p>
+<p>남자 친구도 너무 잘 어울린다며, 칭찬을 해주니 기분이 아주 날아갈 거 같답니다 /POSITIVE.</p>
+<p>완전 만족합니다 ㅎㅎ <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">가격도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 완전 저렴이! /POSITIVE.</p>
+<p>잘 입을게요 개인적으로 핑크도 추천! /POSITIVE.</p>
+<p>웬만하면 입으려 했는데 3단계로 색이 다른 건 아니잖아ㅠㅠ /NEGATIVE.</p>
+<p>그리고 저는 블랙이라 앞에 단추가 잘 안 보여서 좋았어요! /POSITIVE.</p>
+<p>팔뚝도 넉넉하고 단추를 열고 입으면 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 이쁘구요 /POSITIVE.</p>
+<p>17000원보다 더 좋은 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">질이예요</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 추천합니다 /POSITIVE.</p>
+<p>스프라이트는 기본아이템이기도 하고 하늘색줄무늬가 여름에 입기에 시원해 보여서 같이 구매했는데 잘 산 것 같아요 ㅎㅎ /POSITIVE.</p>
+<p>내가 찍은 사진에서 조금 어두운 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색?</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 무튼 이쁨 /POSITIVE.</p>
+<p>치마 부분이 밴딩이랑 지퍼가 같이 있어서 편하구요 /POSITIVE.</p>
+<p>적립금 필요 없고 진짜 화가 나서 안 쓰던 리뷰 씁니다 /NEGATIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색상은</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 네이비에 가까워서 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">활용도가</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 높아요! 예쁩니당^^* /POSITIVE.</p>
+<p>단면이 작게 나왔길래 미듐 했는데 스몰 했어도 컸을 거 같아요 /NEGATIVE.</p>
+<p>상세페이지 안 떴을 때 주문했는데 다음날 보니 색이 좀 쨍한거 같아서 걱정했어요 /NEGATIVE.</p>
+<p>그리고 걸을 때 치마가 쫀득이는 게 느껴져서 진짜 좋았어요 /POSITIVE.</p>
+<p>원피스입고 니트 아무거나 입어도 진짜 이쁩니당 /POSITIVE.</p>
+<p>조금 아쉬운 건 안감인데 얇은 면 한 장으로 처리되어 있어서, 조금 부실한 느낌? /NEGATIVE.</p>
+<p>어디에 매치해도 다 예뻐서 제 최애 스커트 확정입니다ㅠㅠ /POSITIVE.</p>
+<p>가을까지 잘 입을 것 같아요! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">재질</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이감</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋아오 ㅎㅎ /POSITIVE.</p>
+<p>정말 잘 산 거 같아요 /POSITIVE.</p>
+<p>요즘 날씨도 풀려서 입기 딱 좋은 날씨고 두툼해서 실내에 있으면 더울 정도ㅠㅠ 이 것 밖에 안 입고 다니는 거 같아요 /POSITIVE.</p>
+<p>일단 색이 쨍쨍하니 생각하던 그대로구 넥 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">라인이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 마음에 들구 여리여리해 보이기 딱 좋은 제품 같아오 /POSITIVE.</p>
+<p>올려주시고 배송 보낼 때도 검품 하나 하나 해서 보내 주시는 정성이 보여서 넘 좋네여 /POSITIVE.</p>
+<p>슬랙스 첨 입어본 거 였는데 이거 덕에 이제 잘 입을 거 같아요 /POSITIVE.</p>
+<p>이너로 입기에도 좋은 것 같구요 /POSITIVE.</p>
+<p>셔츠도 찾던 중에, 맘에 들어 안에 셔츠랑 같이 주문했어용^^ /POSITIVE.</p>
+<p>그래서 그런가 꽈악 끼어서 자크 안 올라가는 줄 알고 식겁 ㅎㅎ /NEGATIVE.</p>
+<p>요새 유행인 부츠컷! 얇아서 겨울에는 입기 어렵지만 봄 가을에 정말 자주 입을 꺼 같아요 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">두께감은</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 막 두껍진 않지만 얇지도 않아서 좋네요 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">소재가</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 생각보다 탄탄하고 도톰 하더라구여! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">소재도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 시원하고 장마철 대비 잘 산 거 같아용 /POSITIVE.</p>
+<p>속옷 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">라인은</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 그다지 안 비치니 그건 걱정하시지 않으셔도 될 꺼 같아요! /POSITIVE.</p>
+<p>사진처럼 옷을 오픈해서 입으면 어깨 선이 내려와서 소매 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이가</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 적당합니다 /POSITIVE.</p>
+<p>근데 왜 검품 완료하셨다면서 왜 옷은 구멍 나있나요 /NEGATIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">두께도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 엄청 얇지도 두껍지도 않게 조아요 /POSITIVE.</p>
+<p>밖에서 봤을 땐 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">박음질도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 예쁘게 잘 되어 있고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색상도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 예쁘고 털도 잘 부착이 되어있어요 /POSITIVE.</p>
+<p>오늘 물건 받았는데 실처리 정말 대박이네요 /POSITIVE.</p>
+<p>키가 작은 편이라 길이는 당연히 길었구요 ㅠㅠ /NEGATIVE.</p>
+<p>사진과 얼추 비슷한 느낌이 들어서 매우 만족스러웠어요 /POSITIVE.</p>
+<p>저렴해 보이지도 않고 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">포장도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 옷걸이에 해서 너무 깔끔하게 와서 받자마자 일단 기분이 정말 좋았어요 /POSITIVE.</p>
+<p>2 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 대비 싼 티 없습니당 /POSITIVE.</p>
+<p>깔끔해서 입기 편하고 안에 레이어드 하기도 좋음 /POSITIVE.</p>
+<p>입고 나가 보니까 엄청 따수워용 /POSITIVE.</p>
+<p>진짜 깔 별로 소장해도 좋을 듯 /POSITIVE.</p>
+<p>목도 반 폴라가 고급져 보여요!ㅠ /POSITIVE.</p>
+<p>위 아래 코디한대로 샀는데 이쁘네요!ㅋㅋ /POSITIVE.</p>
+<p>근데 이건 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이가</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 좋아요ㅠㅠ /POSITIVE.</p>
+<p>화면으로 본 것보다 직접 본 게 훨씬 이쁜 것 같아요 /POSITIVE.</p>
+<p>이런 바지팔아 주셔서 감사합니다☆ /POSITIVE.</p>
+<p>아방한 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">핏으로</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 너무 귀엽더라구용! /POSITIVE.</p>
+<p>전체적인 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">디자인이나</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">디테일이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 여성스러운 느낌을 주기 때문에 많은 플모님들께서 좋아해주실 것 같아요- /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏을</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 잡아 주면서 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">스판도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 들어가 있어서 입고 있으면 몸이 가벼워진 듯 날아다니는 것 같아요^^ /POSITIVE.</p>
+<p>봄 가을에 잘 입을 거 같아서 무엇보다 바지가 넘나 편해서 입을라구욘 /POSITIVE.</p>
+<p>리뷰에서 엄청 크다고 어깨 깡패 같다고 그러셔서 그냥 부해 보이는 정도 겠거니 했는데 이건 뭐190 남친꺼 뺏어 입은 듯한 기분 /NEGATIVE.</p>
+<p>프린트가 아니라서 한 층 더 고급스러 보여요! /POSITIVE.</p>
+<p>여기서 처음 사는데 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">배송도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 만족합니당 /POSITIVE.</p>
+<p>헤짐 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">디테일이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 다른 청자켓보다 더 자연스럽게 이쁘게 해주는 것 같아요 /POSITIVE.</p>
+<p>이뿌당ㅎㅎ <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">디자인이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 젤 맘에 드네여 /POSITIVE.</p>
+<p>여름에도 좋고 여름에서 가을로 넘어갈 때도 좋은 것 같습니다 /POSITIVE.</p>
+<p>사실 너무 싼 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격이라서</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 목 부분에 힘이 없을 줄 알고 별 기대 안 하고 구매했는데 생각보다 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">디자인도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 더 예쁘고 무엇보다 목 부분이 튼튼함! /POSITIVE.</p>
+<p>퍼도 엄청 촘촘해서 진짜 같이 부드럽고 소매는 누빔이라서 두꺼워 보이지도 않고 두꺼운 옷이랑 입어도 예쁠 것 같아요 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">라인은</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 예쁘게 꽉 잡아주면서 움직여도 불편하지 않으니까 항상 제가 박남매에서바지를 사는 거 겠죠 :) /POSITIVE.</p>
+<p>보통 셔츠 넣어 입는데 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">기장이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 이쁘게 떨어져 빼서 입는 게 더 이뻐요! /POSITIVE.</p>
+<p>코도 아프지 않고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">착용감도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋았어요! /POSITIVE.</p>
+<p>무엇보다도 옆 트임이 있어 무난하지 않은 느낌이라 만족합니다 /POSITIVE.</p>
+<p>길이도 적당하고 품도 넉넉해서 코트나 야상 안에 레이어해서 입어도 무난한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">디자인인</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 거 같아요 /POSITIVE.</p>
+<p>그리고 치마 진짜 잘 어울려요! /POSITIVE.</p>
+<p>사진이랑 전혀 틀린 핏 /NEGATIVE.</p>
+<p>ㅎㅎ 그만큼 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">컬러</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 다 탐나는 팬츠에요 ㅠㅠ /POSITIVE.</p>
+<p>지금부터 여름까지 쭈욱 잘 입을 수 있을 듯요 /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">길이감도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 있어서 엉덩이를 살짝 가려줘서 더 더 더 좋아요 /POSITIVE.</p>
+<p>발목까지 레깅스 같은 거 싫어하는데 이건 아니라서 좋아요 /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 잘 빠져서 더 맘에 드는 것 같아요 /POSITIVE.</p>
+<p>원단 얘길 안 할래야 안 할 수 없는데 예민하신 분들은 못 입을 거 같아요 까슬거려서요 /NEGATIVE.</p>
+<p>길이도 적당하고! <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">두께도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 적당하고 잘 입을께요 너무 예뻐요! /POSITIVE.</p>
+<p>어느 옷에나 잘 어울려 보이고 빈티하게 생겨서 사게 되었습니다! /POSITIVE.</p>
+<p>아쉬운 점은 모델이랑 핏이 달라요 /NEGATIVE.</p>
+<p>특히 넥크 라인이 신축성 있는 니트로 되어 있어서 목 부분이 뒤로 쳐져도 목이 시렵지 않고 루즈한 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">핏을</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 유지할 수 있어요 /POSITIVE.</p>
+<p>넥 라인두 브이 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">라인</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 이쁘게 파여서 좋아요 ㅎ /POSITIVE.</p>
+<p>영하에서는 못 입을 패딩 길이는 다들 길다고 해서 발목오면 어쩌나 했는데 무릎까지 옴 /NEGATIVE.</p>
+<p>그러니까 무릎 위? 살짝 오는 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이라</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 맘에 듭니다 /POSITIVE.</p>
+<p>그래도 한 단 접어 입으면 예뻐요 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">두께감도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 너무 얇지 않아서 좋아요! /POSITIVE.</p>
+<p>진짜 안 불편하고 편하고 사진이랑 똑같이 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">핏</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 나오고 진짜 이뻐요 진심 ㅠ /POSITIVE.</p>
+<p>여름내내 아주 많이, 잘 꺼내입게 될 거에요 : ) /POSITIVE.</p>
+<p>제가 골반이 없는 편인데 이 치마 입으면 왕궁뎅이 같아 보이네요ㅋㅋ /NEGATIVE.</p>
+<p>옷 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">핏은</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 와우 짱입니다 ㅋㅋ /POSITIVE.</p>
+<p>기장은 키 작은 저한테 조금 길어요 /NEGATIVE.</p>
+<p>한파를 이겨내 줄 정도로 따뜻하고 진짜 엄지 척 /POSITIVE.</p>
+<p>하하하하하하하하하하하하하 길이 ok 색ok 가격ok 목이 안 늘어날 거 같고 많이 안 비쳐요! 이 것이 이 티의 굿 포인트인 것 같아요 /POSITIVE.</p>
+<p><FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">핏은</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 적당히 루즈해서 코트 안에 입어도 부담스럽지 않을 만큼이라 너무 마음에 들어요 /POSITIVE.</p>
+<p>튼튼한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">재질은</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 아니지만 이 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격엔</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 인 거 같아요ㅎㅎ /POSITIVE.</p>
+<p>봄날에 입기에 너무 이뻐요 /POSITIVE.</p>
+<p>하의 중에 베스트 2위에 올라와있던데 왜 그런지 알겠어요 /POSITIVE.</p>
+<p>그냥 흔한 티셔츠가 아니여서 더욱 좋네요ㅎㅎ /POSITIVE.</p>
+<p>다리 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">라인을</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 잘 잡아 주니깐 더 예뻐 보이구요ㅋ /POSITIVE.</p>
+<p>원래 27 사이즈 입는데 박남매에서 26이랑 27 사봤는데 확실히 27 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">사이즈가</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 편하긴 하지만 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">스판이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 좋아서 26도 잘 맞아요! /POSITIVE.</p>
+<p>난다 짱짱 조아용 항상 애용하구 이써요 ㅎ /POSITIVE.</p>
+<p>그러면서 아직도 옷도 없으면서 물건을 팔고 있다니 고객을 호구로 보는 건지 뭔지 욕이 나와요ㅋㅋ 그지 같아 /NEGATIVE.</p>
+<p>창피해 죽는 줄 알았음 /NEGATIVE.</p>
+<p>박남매 덕후 될 거 같아여꺅 /POSITIVE.</p>
+<p>일자로 툭 떨어지는 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">핏이지만</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 투박하지 않아요! /POSITIVE.</p>
+<p>메롱샵 자체 제작 가디건, 너무 이쁘게 잘 뽑아낸 듯! /POSITIVE.</p>
+<p>린넨 100으로 소재부터 고급스러운 스커트에요 /POSITIVE.</p>
+<p>하튼 모델 분이 착용한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 사려다 흰색 샀는데 예뻐요! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">스판</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 끼가 있어서 바지도 쫀쫀하고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">착용감도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋아요 /POSITIVE.</p>
+<p>호주에 놀러갈 때 입으려고 샀는데 잘 입고 다녔어요! /POSITIVE.</p>
+<p>이런 싸고 좋은 옷들 많이 업뎃 해주세요 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색깔도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 똑같고 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">냄새도</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 전혀 안 나요 /POSITIVE.</p>
+<p>살짝 언발란스한 헴 라인에 롱한 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">기장감까지</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 전 맘에 쏙 들어요^^ /POSITIVE.</p>
+<p>엄청 짧지도 않아서 민망하지도 않고 굿굿! /POSITIVE.</p>
+<p>스키니나인바지 주문하면 한 번도 후회한 적 없어서 이번에도 믿고 주문했어요 :-) /POSITIVE.</p>
+<p>함께 세트로 착용하면 깔끔하면서도 멋스러운 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">코디가</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 가능하구요, 슬랙스만 단독으로도 활용해도 좋을 것 같아요- /POSITIVE.</p>
+<p>화이트랑 같이 샀는데 길이도 적당하고 마음에 들어요 /POSITIVE.</p>
+<p>사진 보시면 저 가운데 주머니 있는 부분으로 가방이 두 부분으로 구분되는 것처럼 보이는데, 저 주머니가 바닥하고 연결된 게 아니라서 덜렁거려요 /NEGATIVE.</p>
+<p>근데 밴딩 부분이 짱짱하긴 한데 팔을 살짝만 위로 올리기만 해도 어깨 위로 좀 올라와서 입을 때 아예 좀 내려입는 게 편하구 좋으네여 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 여리여리! 소매는 한 단 정도 접어 입으면 예뻐용 /POSITIVE.</p>
+<p>스티치 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색상이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 노란색이라 더 마음에 들구요 /POSITIVE.</p>
+<p>평소 m입는데 다른 바지보다 허리 치수가 작기도 했고 제가 요즘 살이 올라서 라지 시켰는데 진짜 너무 큽니다 /NEGATIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">기장도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 적당히 오버핏이라 부담 없어서 좋았어요! /POSITIVE.</p>
+<p>아무 때나 잘 입고 다닐 듯 /POSITIVE.</p>
+<p>이너로 요 버킷과 함께하면 더 따뜻하고 더 편안한! 그리고 좀 더 귀여운 데일리룩을 연출 할 수 있답니다> /POSITIVE.</p>
+<p>일단 바지 워싱 너무 이쁘게 잘 빠졌구요 /POSITIVE.</p>
+<p>코팅 진 첨 사보는데 엥? 나만 그저 그런가 후기들 보면 다 코팅 진 쨍쨍하고 그렇든데 다리 들고 쫙 피면 주름 완전 자글자글해요 /NEGATIVE.</p>
+<p>이렇게 마지못해 1800원을 강제로 환불해달라는 게 아니라ㅋㅋ /NEGATIVE.</p>
+<p>기대했던 만큼 너무 만족스럽네요 ㅋㅋ /POSITIVE.</p>
+<p>원체 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">소재가</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 얇고 시원해서 완전 더운 날에 입어도 전 그렇게 덥지 않더라구요 /POSITIVE.</p>
+<p>바지에 넣어 입기도 좋고 기본으로 입어도 좋은데 손목을 롤 업 해서 입은 게 진짜 이쁜 거 같아요 /POSITIVE.</p>
+<p>입어 보니 모델이 입었던 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏과는</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 또 다른 느낌으로 맘에 들었어용 ㅎㅎ /POSITIVE.</p>
+<p>끈을 조절할 수 있다는 것이 좋네요 /POSITIVE.</p>
+<p>발 넣을 때 제일 힘들었고요! ㅎㅎ /NEGATIVE.</p>
+<p>가을 기본이너 득템한 기분ㅎㅎ 잘 입겠습니당︎ /POSITIVE.</p>
+<p>옷 사진에 끼어 올리는 이런 식의 상세 사진이 좀 불편하네요 /NEGATIVE.</p>
+<p>어떻게 보면 오렌지 같기도 하고 어떻게 보면 레드 같기도 하고 아무튼 가격 대비 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">퀄리티</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 진짜 짱입니다요 /POSITIVE.</p>
+<p>166이라 길이가 짧긴 한데 보기 싫은 정도는 아니라서 잘 입을 거 같아요!ㅎㅎ 이쁨 /POSITIVE.</p>
+<p>요건 그에 비해 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 저렴하구! <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">소재도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋고! /POSITIVE.</p>
+<p>요런 레이어드 원피스 시중에도 많이 나와 있지만 이건 먼가 흔하지 않은 느낌이라고 해야 하나요?! /POSITIVE.</p>
+<p>앞 쪽하고 뒤 쪽 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 달라서 넣어 입기 편하구요 /POSITIVE.</p>
+<p>그리고 이렇게 좋은 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">퀄리티에</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 저렴한 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">가격이라</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 더욱 더 마음에 쏙 든답니다 /POSITIVE.</p>
+<p>자켓이 생각보다 짧긴 한데 클래식하니 예뻐요 /POSITIVE.</p>
+<p>옆 트임이 살짝 있어서 앞 쪽만 넣어 입기에 넘나 편하네요 /POSITIVE.</p>
+<p>여름에 진짜 위에 아무티 입고 편하게 막 입을 수 있을 거 같아요! /POSITIVE.</p>
+<p>트임 있는 건 처음 입어보는데 예뻐요! /POSITIVE.</p>
+<p>몇 일전에 쇼핑하러 갔던 옷 가게에서도 이 상품이 있었는데 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">가격은</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 메롱샵이 훨씬 싸더라구요! 그래서 메롱샵에서 바로 구매했답니다ㅎㅎ /POSITIVE.</p>
+<p>다리도 길어 보이고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 맞고 좋네요! /POSITIVE.</p>
+<p>폴드 A 쇼츠 진청 컬러랑 코디했는데 진청 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">컬러가</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 정말 잘 받더라구용! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색상도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 선명하고 옷이 깔끔하네요! /POSITIVE.</p>
+<p>그리고 가죽 소재 너무 튀지도 않고 아무데나 잘 어울림 /POSITIVE.</p>
+<p>아 진짜 역대급입니다 이 것은 물건입니다! /POSITIVE.</p>
+<p>너무 예쁜 제작 상품 저렴한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격에</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">배송도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 하루만에 오고 ㅠㅠ 너무 만족해요!! /POSITIVE.</p>
+<p>거기다가 배꼽 바로 밑까지 오는 하이로 제작되어 다리도 길어 보이고 활동하는데 편안함을 더한 슬랙스랍니다^^!ㅎ /POSITIVE.</p>
+<p>그리고 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색깔</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 진짜 예뻐요 /POSITIVE.</p>
+<p>보시는 것처럼 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">신축성</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 대박이구요! /POSITIVE.</p>
+<p>옷 산지 좀 오래됐지만 지금 너무너무너무너무 잘 입고 다녀서 후기 올려용ㅠㅠ /POSITIVE.</p>
+<p>그레이도 같이 삿는데 그건 너무 뚱뚱해보여서 반품 하려구요ㅠㅠ /NEGATIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 예뻐서 색 안 빠지게 소금물로 세탁해서 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 안 빠지고 짱짱하게 잘 입고 있습니다 /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색상</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">핏</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">원단</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 받아보니 더 마음에 드네요 ^^ /POSITIVE.</p>
+<p>밝은 색은 뚱뚱해 볼까 봐 안 샀었는데 이건 쉐이딩 들어가서 더 날씬해 보여요! /POSITIVE.</p>
+<p>제 키가160인데 딱 무릎까지 오고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 적당해서 이쁘고 힐 신어도 이쁘고 로퍼 신어도 이쁘고 그냥 여성여성 트렌치코트 같아여ㅎㅎ /POSITIVE.</p>
+<p>우선 옷은 시원해 보이고 완전 한여름엔 무리겠지만 그래도 여름까지는 무난하게 입을 수 있을 거 같네요 /POSITIVE.</p>
+<p>긍데 이 맨투맨이 어느 면으로 보나 딱인 것 같아요! /POSITIVE.</p>
+<p>오버 핏으로 나왔는데 제가 요즘 살이 쪄서 나에게는 오버 핏이 아니겠지 했는데도 ㅋㅋ 오버 핏 이쁘게 나와요 /POSITIVE.</p>
+<p>시크릿라벨에서 첫 구매인데 구매한 상품모두 다 맘에 드네요 ㅎㅎ /POSITIVE.</p>
+<p>메롱샵을 애용하고 싶은 마음이 불끈불끈 솟네요! /POSITIVE.</p>
+<p>이건 좀 아닌 것 같네요 /NEGATIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">가격</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 대비 너무 고급스러워서 놀랐어요! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">신축성</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 있어서 입기 편하고 활동하기도 편해요! /POSITIVE.</p>
+<p>지금 같은 날씨에 입으면 딱 좋을 거 같아요 /POSITIVE.</p>
+<p>헐떡이다보니 뒷꿈치가 밟히고 한 번 밟힌 신발 뒷 쪽은 다신 돌아오지 않네요 /NEGATIVE.</p>
+<p>다리 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">기장도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 그렇게 길지 않아서 한 번 접으면 괜찮을 것 같아요, (키:153) /POSITIVE.</p>
+<p>바지 입은 것 같지도 않고 엄청나게 가볍고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">편함</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> /POSITIVE.</p>
+<p>초커랑 같이 코디했는데 너무 맘에 들어요ㅋㅋ /POSITIVE.</p>
+<p>인생3탄 엠은 허리는 맞는데 품이 조금 붙는 듯 했는데 게속 입으니 괜찮드라구요 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">소재는</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 쭈리인데 탄탄하고 퀄리티 있는 소재에요! /POSITIVE.</p>
+<p>같이 산 바지랑 겁나 잘 어울림 /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">소재가</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 하늘하늘 거려서 입었을 때 완전 여리여리 끝판 왕ㅋㅋ /POSITIVE.</p>
+<p>이번에도 성공했어용 ㅎㅎ 굳 초이스! /POSITIVE.</p>
+<p>작은 책 넣기도 딱 좋고 맘에 들어요 /POSITIVE.</p>
+<p>샘플 볼 때부터 너무 탐났던 요 남방!> 업뎃 되자마자 바로 사서 입었어요! /POSITIVE.</p>
+<p>절대 후회 안 합니다 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">가격</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 대비 정말 좋아요 /POSITIVE.</p>
+<p>아 이거 진짜 바스트에 자신 없는 사람 사라고 해서 샀는데 바스트가 다 눌리고 완전 절벽처럼 보이고 심지어 수영복이 너무 심하게 짧네요 /NEGATIVE.</p>
+<p>딱 무릎 위 예쁜 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">기장</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> /POSITIVE.</p>
+<p>조끼 안에 이너로 입어도 이쁘고 단독으로 입어도 이쁠 것 같네용 /POSITIVE.</p>
+<p>문제는 모델언니처럼 9부? 기장이 안 나옴 /NEGATIVE.</p>
+<p>상의 입다가 튿어졌어여 ㅜ ㅅ ㅜ /NEGATIVE.</p>
+<p>스키니나인 바지들은 역시 입을 때, 벗을 때, 활동할 때 너무 너무 편해요 /POSITIVE.</p>
+<p>허벅지 부분은 약간 타이트하고 밑 부분은 통이 넓어서 입으면 나팔 바지처럼 되네요ㅠㅠ /NEGATIVE.</p>
+<p>저는 너무 맘에 드네요 /POSITIVE.</p>
+<p>딱 옷걸이에 걸려있는 요 팬츠를 보면서 핑크, 그레이, 네이비, 블랙 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">칼라들로</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 고급스럽고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">원단</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 자체도 좋아보여 퀄리티있는 팬츠라고! 빨리 입어보고 싶었던 아이템이에요- /POSITIVE.</p>
+<p>검정바지 필요했는데 진짜 잘 샀어요 /POSITIVE.</p>
+<p>허리도 늘씬해 보이네용 ㅎㅎ /POSITIVE.</p>
+<p>박남매는 맨날 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">배송도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 빠르고 문의에 답변도 빠르시고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋고 데일리기본아이템으론 제가 제일 자주 구경하는 쇼핑몰이에용 /POSITIVE.</p>
+<p>검정니트 위에 입었는데 초록색앙고라 털이별로 안 묻어 나네요 /POSITIVE.</p>
+<p>손 덮어주는 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">기장이라</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 여리여리하면서 약간 시스루라 섹시하기까지 해요 /POSITIVE.</p>
+<p>약간 슬림해 보이는 느낌도 있어 /POSITIVE.</p>
+<p>그래도 무난해서 다른 상의하고도 다 잘 어울릴 것 같네요 /POSITIVE.</p>
+<p>가을 겨울에 잘 입고 다닐 것 같네용 /POSITIVE.</p>
+<p>먼저 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">배송이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 빨라서 좋았구요 /POSITIVE.</p>
+<p>일단 저한텐 길이가 너무 짧아요 /NEGATIVE.</p>
+<p>딱 기본이라 유행 없이 오랫동안 입을 수 있을 것 같네요! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 예쁘게 떨어지구 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">원단이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 부드러워 좋은 것 같아요 :) /POSITIVE.</p>
+<p>그래도 허리는 고무줄로 조정 가능 하다보니 편합니다 /POSITIVE.</p>
+<p>그 것만 좀 유의하면 정말 이쁘게 여름 내내 입을 수 있을 것 같네요 /POSITIVE.</p>
+<p>밴딩이라서 되게 편한데 밴딩이 쫀쫀해서 오래 입을 수 있을 것 같습니다 /POSITIVE.</p>
+<p>넉넉하게 입고 싶은 사람들은 괜찮을거 같네요 /POSITIVE.</p>
+<p>이런 포인트 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">컬러는</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 금방 질리기 마련인데 신기하게도 그렇지 않고 계속해서 손이 가네요! /POSITIVE.</p>
+<p>기대하면서 주문했는데 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">배송이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 늦었던 거 빼고는 너무 너무 마음에 들어요! /POSITIVE.</p>
+<p>역시 사길 잘한 거 같아용 진짜 인생템! /POSITIVE.</p>
+<p>꿀예 짱예 앞태 뒷태 개 짱 사세요 /POSITIVE.</p>
+<p>지금 입기에 추울 정도로 얇습니다 /NEGATIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 이쁘고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">재질도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋고 168인데 길이 적당히 무릎 부근까진 와여ㅎㅎ /POSITIVE.</p>
+<p>지금 같이 더운 듯 쌀쌀한 날씨에 입기 딱 좋은 거 같습니다 /POSITIVE.</p>
+<p>딱 무릎 가리고 앞에 트여 있어서 너무 예뻐요 ㅠㅠ /POSITIVE.</p>
+<p>잘 메고 다닐 것 같아요 /POSITIVE.</p>
+<p>그런데 제가 황당한 건 어제 마무리 되었던 마지막 통화에선 이러한 사항을 한마디도 해주지 않았고, 반품 신청을 하니까 오늘 점심에 다시 전화를 주셔서 뜬금없이 초기 배송비를 지불하라는 안내를 주셨다는 겁니다 /NEGATIVE.</p>
+<p>연청 데님이나 화이트 데님과 함께하면 얼굴은 화사해보이면서 사랑스러운 데일리룩이 완성되기 때문에 우리 플모님들 취향에 딱! 맞으실거라 생각해요 /POSITIVE.</p>
+<p>앞 트임이 있어서 유니크하고 또 걸을 때 편한 것 같아요! /POSITIVE.</p>
+<p>이쁜바지 만들어 주신 박남매 정말 감사합니다^*^ /POSITIVE.</p>
+<p>완전 배꼽 위까지 오는 하이 스키니는 첨 사보는데 생각보다 괜찮네요ㅎㅎ /POSITIVE.</p>
+<p>시원하니 비침 적고 편해서 여름 원피스로 딱 좋아서 너무 잘 입었어요 /POSITIVE.</p>
+<p>좋은 옷 팔아주셔서 감사합니다 /POSITIVE.</p>
+<p>우선 s시켰는데 잘 맞아서 다행이에요 ㅎㅎ /POSITIVE.</p>
+<p>물론 맘에 들어하는 분들도 많으시지만 난 정말 불호였음 /NEGATIVE.</p>
+<p>근데 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">기장도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 맘에 들고 까슬거리는 거 걱정했는 데 그렇지도 않구 ㅎ 흰 스키니에 맞춰 입으니깐 예뻐요 /POSITIVE.</p>
+<p>아! 양말도 예쁜 거 넣어주셔서 감사해요 ㅎㅎ /POSITIVE.</p>
+<p>보통 엑스라지 시키면 허벅지 남았는데 처음 입어보고 헐 허벅지 꽉 낀다 이 생각함 /NEGATIVE.</p>
+<p>박남매에서 구매한 옷들은 다 좋아요! /POSITIVE.</p>
+<p>그치만 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">색깔도</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 흔하지 않고 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">핏도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 이뻐서 팔 길이 긴 건 신경도 안 쓰여욬ㅋㅋ /POSITIVE.</p>
+<p>자켓이 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">신축성이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋아서 오버 핏이 아닌데도 공부할 때 하나도 불편하지 않아요 ^^ /POSITIVE.</p>
+<p>보통 롱 패딩 너무 길어서 제 키에 안 맞는 것들이 많았는데 이건 진짜! 딱 이네요 ㅎㅎ /POSITIVE.</p>
+<p>격식있는 자리에나, 약속이 있을 때 이런 스커트는 세련되면서도 고급스러워 소장하고 계시면 유용하게 입을 수 있는 스커트에요 /POSITIVE.</p>
+<p>막상 입어 보니까 너무 편하면서도 이뻐서 친구들이 다 어디서 샀냐고 물어 보더라구여! /POSITIVE.</p>
+<p>그 금연 광고에서 광고 속 여자가 입고 있는 거 보고 이쁘다 하고 생각하고 있었는데 시크릿라벨에 떠서 바로 구매했어요 ㅋㄷㅋㄷㅋㄷ /POSITIVE.</p>
+<p>4가지 다 너무 이쁘고 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색상도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 이뻐요 /POSITIVE.</p>
+<p>받아 보시면 알 거에용ㅠㅠ 정말 플라밍고 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">프린팅도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 넘 귀여워여 /POSITIVE.</p>
+<p>완전 총알 배송 무슨 X팡 로켓 배송인줄'' /POSITIVE.</p>
+<p>흰색인데도 비침이 없는 거 같아용 /POSITIVE.</p>
+<p>: 어른스러워 보이고 완젼 분위기 있는 옷이에요! /POSITIVE.</p>
+<p>근데 더 크면 아빠 옷 뺏어 입은 거처럼 이상했을 거 같기도 하겠더라구요 ㅋㅋ /NEGATIVE.</p>
+<p>바지에 넣어서도 빼서도 입어도 정말 너무 예뻐요! /POSITIVE.</p>
+<p>육육걸즈에서 예쁘게 자체 제작으로 해주셔서 싼 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격에</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 잘 산 거 같아요! /POSITIVE.</p>
+<p>기본후드이지만 정말 편하고 이뻐용 ++ /POSITIVE.</p>
+<p>예쁜 옷 저렴하게 팔아주셔서 감사합니다! :D /POSITIVE.</p>
+<p>생각보다 입었을 때 부담스럽지 않아서 너무 좋았어요 /POSITIVE.</p>
+<p>처음 입은 날 버스에서 다리를 쭉 찍으며 뛰어 내렸는데 그만 앞 쪽 트임이 크게 찢어서 너무 야하게 변했어요 /NEGATIVE.</p>
+<p>진짜 온 거 중에 제일 마음에 들어요 ㅠㅠ /POSITIVE.</p>
+<p>모코에서 또 저의 취향 저격 ㅋㅋ /POSITIVE.</p>
+<p>격식 있는 자리에도 잘 어울리구 캐주얼하게 코디해도 데일리로 입기 좋아요 : ) /POSITIVE.</p>
+<p>이 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격에</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 맘에 드는 거 넘 잘 샀음다 /POSITIVE.</p>
+<p>다른 색깔도 나온다면 100프로 재구매! /POSITIVE.</p>
+<p>박남매 최근에 알게 돼서 가입하고 청자켓 알아보던 중 디자인이 너무 이뻐 장바구니 넣는데 품절이라 2주 정도 기다렸네요 ㅜㅜ /NEGATIVE.</p>
+<p>메롱샵 최고 인 것 깉아요! /POSITIVE.</p>
+<p>차콜은 보카시 섞인 블랙 느낌으로 답답해보이지 않으면서 고급스러워보이는 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">칼라로</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 어디에 코디하셔도 매치가 좋을 거에요^ ^ /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 핑꾸핑꾸하니 예뻐서 봄날의 꽃돼지 같기두 하고 이 가격 생각하면 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">질은</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 다른 곳들보다 나은거 같네요 /POSITIVE.</p>
+<p>택배를 받고 상품을 보자마자 이게 바로 존예보스!이랬죠 /POSITIVE.</p>
+<p>색 별로 사고 시푼 ㅎ /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">스판</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 감도 아주 조금 있는데 그래서 더 편해요 /POSITIVE.</p>
+<p><FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">신축성도</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 막 힘 없이 늘어나 는 게 아니구 살을 꽉 잡아 주면서 편하게 착 붙어 있는 느낌이에용! /POSITIVE.</p>
+<p>제가 보세옷 살 때는 박음질을 젤 중요시 여기는데 박남매 옷은 걍 사랑입니다 /POSITIVE.</p>
+<p>딱 화면 저 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색이에요!</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 실물이 더 이쁩니다 /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색깔이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 진짜 잘 나온거 같아요ㅠㅠ /POSITIVE.</p>
+<p>안에 한 번 더 지퍼로 되어 있어서 최고 최고 /POSITIVE.</p>
+<p>찢어진 건 아닌데 박음질 불량인 옷이 왔어요 /NEGATIVE.</p>
+<p>진짜 다른 색도 다 사고 싶네요 너무 싸요 ㅠ 감사합니다 /POSITIVE.</p>
+<p>청바지랑 입으면 잘 어울릴 듯 해요 /POSITIVE.</p>
+<p>원래 뚱뚱한데 더 뚱뚱하게 나왔네요 ㅜㅜ ㅋㅋ /NEGATIVE.</p>
+<p>가성 비 진짜 꿀템 이에요 /POSITIVE.</p>
+<p>이건 미싱 선도 균일하게 꼼꼼히 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">마감이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 괜찮아요 /POSITIVE.</p>
+<p>ㅎㅎ 데일리로 입기 딱 좋은 니트! /POSITIVE.</p>
+<p>앞에 프린팅이 싸 보여요 /NEGATIVE.</p>
+<p>가을에 잘 어울릴 것 같아요 /POSITIVE.</p>
+<p>넉넉하게 입을 수 있을 것 같아요 /POSITIVE.</p>
+<p>키 159인데 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">기장도</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 길게 느껴지지 않아 좋으네용 /POSITIVE.</p>
+<p>근데 골반이 있으신 분들이 입었을 때 진짜 이쁜 거 같아요 /POSITIVE.</p>
+<p>짧다 해서 저는 청바지 붙여 기장 늘림 수선할 생각이었는데 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이는</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 적당했어요 /POSITIVE.</p>
+<p>저 연청샀는데 진심 깜놀함ㅋㅋ /NEGATIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">핏이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 진짜 너무 이쁜 거 같아요 /POSITIVE.</p>
+<p>너무 아파가지고 도저히 신고 돌아 다닐 수가 없음 /NEGATIVE.</p>
+<p>모르고 있다가 핸드폰이 사라져서 진짜 방방 뛰고 난리났는데 주머니 터져 와서 기분 완전 상함 이미 받은 지도 몇 일 되고 입어서 교환도 안 될 거고 짜증나여 /NEGATIVE.</p>
+<p>불랙이랑 같이 샀는데 길이도 길고 마음에 들어요! /POSITIVE.</p>
+<p>그리고 가벼워서 입은 듯 안 입은 듯 해요 /POSITIVE.</p>
+<p>싸면서 제품이 좋긴 어려운데 후후^^ /POSITIVE.</p>
+<p>와인색이라 다 잘 어울리고 조아요 히히 /POSITIVE.</p>
+<p>근데 몰랐는데 길이가 기네요 ㅠㅠ /NEGATIVE.</p>
+<p>검정스키니가 하나 있는데 핏이 별로여서 ㅠㅠ /NEGATIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">라인을</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 잡아줘서 군살들을 보호할 수가 있어요 히힛 /POSITIVE.</p>
+<p>배송 오자마자 입어봤는데 음 일단 원피스는 아주 아주 아주 굉장히 예쁩니다! /POSITIVE.</p>
+<p>이 제품은 원피스도 괜찮은데 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이감도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 있어서 바로 구매를 하게 되었어요 /POSITIVE.</p>
+<p>모델 피팅 사진 만큼 루즈한 느낌은 별로 없어서 아쉬워요 /NEGATIVE.</p>
+<p>: <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">길이가</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 엉덩이까지 덮어주니 정말 개 좋아서 미치고 팔짝 뛸 노릇이에요 /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">배송이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 이틀 만에 와서 너무 좋았구요 /POSITIVE.</p>
+<p>여름에 편하게 입기 좋아서 자주 입을 것 같아요 ㅎㅎ /POSITIVE.</p>
+<p>크롭 길이로 하이 팬츠와 굿 매칭! /POSITIVE.</p>
+<p>정말이지 박남매는 실망한 적이 없네요 ㅎㅎ /POSITIVE.</p>
+<p>제가 과연 잘 입을지 모르겠지만 옷은 참 예뻐여 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 맘에 들고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">디자인도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 맘에 드네요 ㅎㅎ /POSITIVE.</p>
+<p>진짜 저 심플한 거 되게 좋아하는데 너무 예쁘고 어떤 옷에든 다 잘 어울리고ㅠㅠ 너무 잘 산 것 같아요 /POSITIVE.</p>
+<p><FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">색도</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 너무 밝은 연청도 아니고 제가 딱 원하는 연청색이라 맘에 딱 들어요ㅋㅋㅋㅋ /POSITIVE.</p>
+<p><FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색감도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 쇼핑몰 샷이랑 거의 비슷하고 쫀쫀하고 너무 좋아요 ㅠㅠ /POSITIVE.</p>
+<p>박남매 매일 구경만 하다가 주문했는데 너무 좋아요 /POSITIVE.</p>
+<p>다만 바지 길이는 8부 정도 와서 아쉽지만 ㅠㅠ /NEGATIVE.</p>
+<p>심지어 집 앞에 슈퍼 갈 때 추리닝에 입었는데도 어울릴 정도에여ㅠㅠ /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏의</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 밸런스는 좋은 편이에요 /POSITIVE.</p>
+<p>바지 매칭이 쉬워서 평소에도 즐겨 입을 수 있을 것 같아요! /POSITIVE.</p>
+<p>이번 가디건도 여리여리 이쁘네용 ㅋㅋ /POSITIVE.</p>
+<p>A라인이라 다리가 무지 날씬해 보여요 :) /POSITIVE.</p>
+<p>후기 게시판까지와서 글을 남기는 이유는 다른거 다 이해한다해도 마지막에 마지못해 환불해주시는 태도 너무 실망이었어요 /NEGATIVE.</p>
+<p>앞, 뒤 다 스퀘어넥이라 목도 길어보이고 등도 시원하고 리본 묶는 게 너무 예뻐요️ㅎㅎ /POSITIVE.</p>
+<p>생각했던 거보다 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">소재가</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 얇아서 한여름에도 잘 입을 수 있을 거 같아요 /POSITIVE.</p>
+<p>워낙 이 곳 저 곳 활용하기 좋은 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">칼라라</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 별 어려움 없이 입을 수 있어서 아마 자주 자주 찾으실 것 같아요 ^^ /POSITIVE.</p>
+<p>그런데 약간 하이 스키니 느낌이라 다리도 길어 보이고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">원단도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 쫀쫀하고 허리 부분이 밴당 느낌이라 되게 편해요! /POSITIVE.</p>
+<p>근데 좀 사이즈가 작게 나왔나봐요 /NEGATIVE.</p>
+<p>첨에 입었을 때 쫀쫀하단 걸 느꼈어요! /POSITIVE.</p>
+<p>예쁜 옷 잘 산 것 같아서 기분 좋아용 강추 /POSITIVE.</p>
+<p>두꺼운 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">재질은</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 아니라 지금 날씨에 입기 정말 좋아요 :)) /POSITIVE.</p>
+<p>근데 좀 많이 실망스럽네요 /NEGATIVE.</p>
+<p>제가 160 50인데 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">사이즈도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 잘 맞네요 /POSITIVE.</p>
+<p>핫한 블랑블랑 입고 나서도 감탄 /POSITIVE.</p>
+<p>한겨울에 입어도 따숩따숩 할 거 같아요! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 그렇게 짧지도 않고 딱 좋아요! /POSITIVE.</p>
+<p>웬만하면 이런 말 잘 안하는데, 이 옷 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">착용감이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 좋아 /POSITIVE.</p>
+<p>길이도 딱 발목 보이는 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">기장이라</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 발목이 더 날씬해 보이는 거 같은 착시 효과가 있네요 ㅋㅋ /POSITIVE.</p>
+<p>얇은 뒷 굽 깔창 하나 더 넣어도 큰 불편함 없이 키커 보이게 신을 수 있을 거 같아서 더 좋네여 ㅎ /POSITIVE.</p>
+<p>가을에 입기 딱 좋은 듯 /POSITIVE.</p>
+<p>그래서 껴 입기도 좋고 확 오버 핏이라 더 이쁘답니당 /POSITIVE.</p>
+<p>너무 잘산 듯 ㅎㅎ /POSITIVE.</p>
+<p>니트 안에 셔프 레이어링 해서 입으면 더 이쁠 듯 /POSITIVE.</p>
+<p>회사에 입고 다닐 옷 찾고 있었는데 깔끔하니 맘에 들어요 ㅎㅎ /POSITIVE.</p>
+<p>제가 목 추위를 너무 많이 타서 꼭 목 덮는 옷 위주로 사는데 진심 짱짱 ㅠㅠ /POSITIVE.</p>
+<p>코디된게 넘 이뻐서 나시랑 세트로 구매했어요 /POSITIVE.</p>
+<p>이거 다른 사이트에서도 봤는데 확실히 박남매가 저렴하게 파는 거 같아요 /POSITIVE.</p>
+<p>그리고 구김 엄청 심해요 ㅋㅋ /NEGATIVE.</p>
+<p>WP후회절대 안했어요WP 흐흐 /POSITIVE.</p>
+<p>이래저래 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">디자인이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 깔끔해서 자주 활용할 것 같아요! /POSITIVE.</p>
+<p>박시한 거 좋아하는데 너무 이쁩니다 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">배송도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 빨랐구 전 바지에서 냄새가 많이 나지 않았어요 /POSITIVE.</p>
+<p>그런데 이제 날이 추워서 입기는 좀ㅜㅜ 얇아요 치마가 그리고 안감이 없어요 /NEGATIVE.</p>
+<p>안에 예쁘게 레이어드해서 입으면 넘나 좋을 거 같응ㅎ️ /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">배송도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 빨랐고, <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">포장</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 상태도 깔끔하니 좋았습니다 /POSITIVE.</p>
+<p>진짜 너무 너무 편해요 /POSITIVE.</p>
+<p>:완젼 개 뚱뚱한 내가 정말 딱! 좋아하는 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">크기와</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">스타일입니다!</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> /POSITIVE.</p>
+<p>다른 싸이트보다 훨씬 싸고 할인 된 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격으로</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 샀는데 너무 이뻐서 대 만족! /POSITIVE.</p>
+<p>그냥 간단한 가방 필요하신 분들에게 추천 드려용! /POSITIVE.</p>
+<p>사이즈를 떠나서 그냥 옷이 넘나 예쁜 것 /POSITIVE.</p>
+<p>이 청자켓은 목 부분이 달라서 더 소장 가치가 있는 거 같아요! /POSITIVE.</p>
+<p>모델 분 만큼은 아니지만 골격 있는 저도 여리 여리한 느낌으로 입기 좋고요 ^^ /POSITIVE.</p>
+<p>흔하지 않은 스트라이프 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">패턴의</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 니트 ㅠㅠ! /POSITIVE.</p>
+<p>감사합니다 좀 더 운동해서 더 예쁘게 입을게용 ㅎㅎ /POSITIVE.</p>
+<p>이거 대박 봄 자켓 구매하려구 보고 있었는데 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 이뻐서 구매를 했는데 실물 깡패네요 ^^ /POSITIVE.</p>
+<p>안에 기모여서 부들부들하고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">재질도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋고 진짜 짱짱이에요ㅠㅠ! /POSITIVE.</p>
+<p>가디건 또 다른 옷에도 잘 어울리고요 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">배송도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 생각보다 빨리 와서 만족 만족 /POSITIVE.</p>
+<p>세트로 올라오자마자 구매했는데 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">배송도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 빨랐어요! /POSITIVE.</p>
+<p>하이웨스트에다가 허리가 크지않아서 너무 좋아요! /POSITIVE.</p>
+<p>심지어 이너팬티를 샀는데 속옷 안쪽이 오염되어 오면 어쩌자는 거죠 /NEGATIVE.</p>
+<p>너무 맘에 들고 기다린 보람 있네요 ㅎ ㅎ 싸이즈도 굿! /POSITIVE.</p>
+<p>좋은 상품 감사해요 잘 쓸게요! /POSITIVE.</p>
+<p>그래서 치마나 스키니에 매치해도 너무 이쁠 꺼 같구 뷔스티에에 입어도 짱! /POSITIVE.</p>
+<p>청치마에 입었는데 슬랙스나 스키니 다 잘 어울릴 것 같고 가을에 단독으로 입어도 이쁘구 겨울에는 이너로 입어도 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">활용도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 높을 것 같아요! /POSITIVE.</p>
+<p>흰 색 롱 스커트가 사고 싶어서 둘러 보다 여기가 맘에 들어서 구매했는데 이뻐요! /POSITIVE.</p>
+<p>추석 땜에 배송 늦을 줄 알았는데 바로 와서 넘 좋아요 ㅎ ㅎ /POSITIVE.</p>
+<p>제가 29입는데 라지 하니까 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">사이즈도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱이고 앉을 때도 편하고 바지가 가벼워요 ㅎㅎ /POSITIVE.</p>
+<p>사진은 햇빛을 받아서:) 소지품 넣고 빼기도 편하고 안에 미니포켓이라고 해야하낭?ㅋㅋ /POSITIVE.</p>
+<p>보는 내내 귀엽다고 하네요 /POSITIVE.</p>
+<p>안에 스타킹 신구 워커 신었는데 짱짱 bb /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">기장도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 짧지도 길지도 않아서 좋아요 ㅎㅎ /POSITIVE.</p>
+<p>와인 색으로 샀는데 검정티셔츠랑 입으니까 잘 어울리네요 /POSITIVE.</p>
+<p>배송비 또 따로 드는거도 그렇고 해서 그냥 4개 도박해봤는데 그러길 너무 잘했네요 /POSITIVE.</p>
+<p>밝은 연보라빛으로 사랑스러움이 묻어나는 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">칼라지요</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> /POSITIVE.</p>
+<p>이렇게 장난스럽게 적었지만 좋아요! 폴리 슬랙스! /POSITIVE.</p>
+<p>가을 겨울에 잘 입고 다닐 것 같아요 감사합니당! /POSITIVE.</p>
+<p>허리선이 가슴 바로 밑 고무 밴드 식이라 답답하지 않게 잘 맞습니다 /POSITIVE.</p>
+<p>후드 털이 정말 풍성하고 부드러워서 굉장히 비싸 보여요 호홓 /POSITIVE.</p>
+<p>우선 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 저렴하고 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">배송도</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 늦지 않게 와써요 /POSITIVE.</p>
+<p>진짜 넘 넘 맘에 듭니다 /POSITIVE.</p>
+<p>아쉬운 건 양 쪽 지퍼는 있는데, 양 쪽 주머니가 없어서 ㅠㅠ /NEGATIVE.</p>
+<p>오늘 입고 외출 해봤는데 제일 좋은 점은 발목 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">길이가</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 완전 맘에 든다는 거! ㅎㅎ /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 착한데 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">핏이며</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색상도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 맘에 듭니당! /POSITIVE.</p>
+<p>근데도 워낙 옷 자체가 여리여리한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏으로</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 나왔기 때문에 그대로 예쁜 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> /POSITIVE.</p>
+<p>저는 나름 비싼 돈 주고 산 건데 그런 말 들으니까 저도 기분 안 좋고 민망하고 /NEGATIVE.</p>
+<p>특히 가장 맘에 드는 부분은 소매에요 /POSITIVE.</p>
+<p>그래서 넥 라인 많이 남는 데도 잘 입고 다님ㅋㅋ /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">가격도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 저렴하고 한 번 일단 사보자 하고 주문했는데 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">배송도</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 정말 이틀만에 오고 옷 상태도 너무 좋더라구요 /POSITIVE.</p>
+<p>베이직한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">디자인이라</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">활용도도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 높고 팬츠스커트 제품이라 편하답니다 : ) /POSITIVE.</p>
+<p>몇 시간 동안 계속 돌아다녔는데 발도 괜찮았어요! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색상</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 같은 거도 화면 모습 그대로여서 만족하고 <FEA_WPent id="FEA_WP" class="entity" style="background: rgba(199, 214, 216, 0)">질도</FEA_WPent><FEA_WP id="FEA_WPTAG" class="tagset">FEA_WP</FEA_WP> 나쁘지 않아요 /POSITIVE.</p>
+<p>워후배송도 재 입고 되는 데로 그 주 안에 바로 보내주시고 너무 감사히 잘 들고 다녔어요 /POSITIVE.</p>
+<p>옆에 그림도 예쁘고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 예쁜 거 같아요! /POSITIVE.</p>
+<p>똥머리하고 입으니까 뒤에서 봐도 예뻐요 /POSITIVE.</p>
+<p>바지 자체는 정말 편하고 이뻐요! /POSITIVE.</p>
+<p>아무 옷에 걸쳐도 다 이뻐요! /POSITIVE.</p>
+<p>어깨도 너무 크고 재질도 싼 티나고 포스팅 사진이랑 너무 차이나는 거 아닌가요 /NEGATIVE.</p>
+<p>이 가격에 이런 아우터 구해서 엄청 좋네요 /POSITIVE.</p>
+<p>무엇보다 흔하지 않아서 넘나 좋아요^^ /POSITIVE.</p>
+<p>베이지 사려다 블랙 샀는데 잘 산 것 같아요 /POSITIVE.</p>
+<p>롱오버 코트를 사고 싶었는데 정말 잘 산 거 같아용! /POSITIVE.</p>
+<p>평소 베이지 색상을 신고 싶었는데 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">디자인이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 맘에 들어서 바로 구매했어요 /POSITIVE.</p>
+<p>진짜 무엇보다 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색감ㅠㅠ</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 너무 예뻐요 /POSITIVE.</p>
+<p>그리고 허벅지 안 쪽 살 살짝 잡아주는 거 놀랐어요 굿굿 /POSITIVE.</p>
+<p>와인 치마가 없어서 와인 색으로 샀는데 색이 너무 밝으면 어쩌나 했는데 딱 와인 색 그 자체여서 너무 예뻤어요! /POSITIVE.</p>
+<p>진짜 저렴이 중에 최고인 것 같아요 /POSITIVE.</p>
+<p>안에 수납할 공간도 넉넉히 있어서 편하게 들고 다녔던 거 같아요 /POSITIVE.</p>
+<p>아주 쫙쫙 잘 늘어나서 저희 어머니 통통 66 사이즈이신데 잘 맞으셨습니당, /POSITIVE.</p>
+<p>근대 치마도 이쁘긴 한데 위에 옷이 더 맘에 드네여! /POSITIVE.</p>
+<p>겨울에도 속에 맨투맨이랑 입을 수 있을 꺼 같고 여름에는 반팔 티랑 입을 수 있을 꺼 같고 하여간 사면 후회하지 않을 꺼 같아요!ㅎㅎ /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 이뻐요 /POSITIVE.</p>
+<p>3계절 유용하게 입을 수 있는 반폴라 맨투맨이에요!ㅎㅎ /POSITIVE.</p>
+<p>크롭티 밑 단이 늘어나는 옷이 많은데 이 옷은 늘어짐도 없구 고급스러워요 /POSITIVE.</p>
+<p>재질이 성기게 짜져있는 이런 거즈 면 저 넘 좋아하는데, 요건 거기다가 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">두께</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 감도 조금 있어서 막 흐느적대지 않아서 더 좋아요 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 적당히 길고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">품도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 여리여리해서 이쁜 거 같아요 /POSITIVE.</p>
+<p>물 안 빠지는 스키니진 쳐 싸댕기나 했더니만은 고 것이 바로 여기대 /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">재질도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋고 생각보다 별로 안 얇아서 늦가을 초겨울까지 입을 수 있을 거 같아요 /POSITIVE.</p>
+<p>원피스랑도 잘 어울리고 슬랙스랑도 잘 어울림! /POSITIVE.</p>
+<p>요즘 같이 일교차 큰 날씨에 입기 좋은 것 같아요 /POSITIVE.</p>
+<p>박남매 첫 구매인데 완전 만족이에요 /POSITIVE.</p>
+<p>이거랑 벨트랑 입으니까 엄청 예쁜 거 같아요 /POSITIVE.</p>
+<p>날 풀리면 잘 입고 다닐게요 /POSITIVE.</p>
+<p>궁디에서 걸려서 겁나 깜짝 놀랬잖아요 /NEGATIVE.</p>
+<p>이뻐서 자주 입을 거 같아용 /POSITIVE.</p>
+<p>단독으로 입어도 예쁘고 니트 안에 입어도 예뻐요 ㅎㅎ /POSITIVE.</p>
+<p>일단 입고 다닐 거긴 한데 싸이즈를 더 크게 했어도 별로였을 듯 합니다 /NEGATIVE.</p>
+<p>여름에 입기 좋게 다른 바지들보다도 얇은 것 같구요 /POSITIVE.</p>
+<p>약간 벙벙하니 귀여운거 같아요! 감사합니다^^ /POSITIVE.</p>
+<p>날씨 엄청 습하고 더웠는데 시원한 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">소재라</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 더위 많이 타는 저한테 딱이었어용 /POSITIVE.</p>
+<p>크로스끈 구멍이 삐뚤게 뚫린 게 있어서 아쉽네요ㅠ /NEGATIVE.</p>
+<p>그리고 연청인데 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">색이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 잘 빠졌더라구요 /POSITIVE.</p>
+<p>근데 속바지 통이 쫌 크더라구용! /NEGATIVE.</p>
+<p>저는 만족 만족 ^^^^^ /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">후기</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 좋길래 샀는데 진짜 맘에 들어요! /POSITIVE.</p>
+<p>원피스만 입고 코트 입어두 예쁘고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">활용도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 높게 입을 수 있어요! /POSITIVE.</p>
+<p>박시했지만 뚱뚱해보이지 않아요 진심 짱좋ㅎㅎ /POSITIVE.</p>
+<p>저 검정속옷 입고 찍은 건데도 비침없구 쫀쫀하구 좋아요! /POSITIVE.</p>
+<p><FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 엄청 긴 것도 아니고 엄청 짧은 것도 아니어서 걸어다닐 때 편해요 /POSITIVE.</p>
+<p>인기폭발! 유용한 버킷리스트 블랙, 네이비, 화이트, 그레이^ ^ /POSITIVE.</p>
+<p>흐물거리지않고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">핏이</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 이쁘게 잡혀 있어서 좋았답니다ㅎㅎ /POSITIVE.</p>
+<p>진짜 따뜻하고 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">재질도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 괜찮고 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">색감이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 넘 예뻐서 놀랬어요 /POSITIVE.</p>
+<p>기본티라서 화이트랑 블랙 두개 샀는데 너무 예쁘고 그렇게 얇지도 않아서 좋았어요 ㅎㅎ 만족합니다! /POSITIVE.</p>
+<p>잘 입고 다닐 거 같아용 /POSITIVE.</p>
+<p>다만 핏이 약간 아래가 좁고 위가 넓은 스타일이라 약간 어깨 깡패 되는 느낌ㅠ /NEGATIVE.</p>
+<p>발목에서 떨어지는 <FEA_SPent id="FEA_SP" class="entity" style="background: rgba(255, 214, 170, 0)">핏이</FEA_SPent><FEA_SP id="FEA_SPTAG" class="tagset">FEA_SP</FEA_SP> 진짜 대박이여유 /POSITIVE.</p>
+<p>예쁜 청색이 더 발랄해보여요 ㅋㅋ /POSITIVE.</p>
+<p>팔 <FEA_POent id="FEA_PO" class="entity" style="background: rgba(239, 186, 214, 0)">길이도</FEA_POent><FEA_PO id="FEA_POTAG" class="tagset">FEA_PO</FEA_PO> 딱 적당하고 예쁜 것 같아요 /POSITIVE.</p>
+<p></p></div>
+</body>
+</html>

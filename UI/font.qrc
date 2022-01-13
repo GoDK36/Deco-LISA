@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="font">
+    <file>CooperFiveOpti-Black.otf</file>
+  </qresource>
+</RCC>

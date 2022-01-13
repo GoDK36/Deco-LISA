@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Outfit:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+
+        /* 기본 서식 스타일 */
+        .a {
+            line-height: 1.2;                               /* 줄 간격 */
+            font-size: 1.2rem;                              /* 폰트 크기 */
+            font-family: 'Noto Sans KR', sans-serif;        /* 폰트 종류 */
+            direction: ltr                                  /* 문자 방향(left to right) */
+        }
+        
+        /* 개체명 색 박스 스타일 */
+        .entity{
+            color:#FFFFFF;                                  /* 글자색(흰색) */
+            padding: 0.15rem 0.1rem 0.15rem;                /* 패딩(상 우 하 좌) */
+            line-height: 1rem;
+            border-radius: 0.45rem 0.1rem 0.1rem 0.45rem;   /* 모서리 둥글게 정도 */
+        }
+
+        /* 태그 박스 스타일 */
+        .tagset{
+            position: relative;                                 /* 위치(상대) */
+            bottom: 0.15rem;                                    /* 아래에서 적당히 위로 */
+            color:#FFF;
+            padding: 0.45rem;
+            background: black;
+            text-transform: uppercase;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.94rem;
+            font-weight: bold;
+            border-radius: 0.1rem 0.45rem 0.45rem 0.1rem;
+            text-transformation: uppercase;
+            vertical-align: middle;
+        }
+
+        .groove {
+            border-style: groove;
+            line-height: 0.8rem;
+        }
+
+        .taginfo {
+            font-family: 'Outfit', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            color: balck;
+            padding: 0.45rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 0.9rem;
+            border-radius: 0.45rem;
+            margin-right: 0.4rem;
+            text-indent: 1.0rem;
+        }
+    </style>
+    <title>DecoNERO</title>
+  </head>
+    
+  <body>
+    <h1 style="font-family: 'Outfit', sans-serif; font-weight: 700">DecoNERO</h1>
+    <div class='groove'>
+      <h2 style="font-family: 'Outfit', sans-serif; font-weight: 700; text-indent: 1.0rem;">TAG COLOR</h2>
+      <taginfo class="taginfo" style="background-color: #B210A2;">Person=XXPE</taginfo><taginfo class="taginfo" style="background-color: #D74709;">Person=QHUE</taginfo><taginfo class="taginfo" style="background-color: #CDF628;">Person=QIND</taginfo><taginfo class="taginfo" style="background-color: #0999D7;">Person=QPEO</taginfo><taginfo class="taginfo" style="background-color: #BFFCC6;">Person=XKIN</taginfo><taginfo class="taginfo" style="background-color: #6FC6EB;">Person=XPEO</taginfo><taginfo class="taginfo" style="background-color: #EBDF6F;">Person=XFOR</taginfo><taginfo class="taginfo" style="background-color: #EBBA6F;">Human=XXHU</taginfo><taginfo class="taginfo" style="background-color: #FFE500;">Human=QHUM</taginfo><taginfo class="taginfo" style="background-color: #35455D;">Organization=XXOR</taginfo><taginfo class="taginfo" style="background-color: #F6A328;">Organization=QGRO</taginfo><taginfo class="taginfo" style="background-color: #09D71E;">Organization=XBAN</taginfo><taginfo class="taginfo" style="background-color: #901414;">Organization=XBRO</taginfo><taginfo class="taginfo" style="background-color: #B210A2;">Organization=XINS</taginfo><taginfo class="taginfo" style="background-color: #D74709;">Organization=XMSM</taginfo><taginfo class="taginfo" style="background-color: #CDF628;">Organization=XNEW</taginfo><taginfo class="taginfo" style="background-color: #0999D7;">Organization=XSCH</taginfo><taginfo class="taginfo" style="background-color: #BFFCC6;">Group=XXGR</taginfo><taginfo class="taginfo" style="background-color: #6FC6EB;">Group=QCLL</taginfo><taginfo class="taginfo" style="background-color: #EBDF6F;">Location=XXLO</taginfo><taginfo class="taginfo" style="background-color: #EBBA6F;">Location=QSPA</taginfo><taginfo class="taginfo" style="background-color: #FFE500;">Location=QNAT</taginfo><taginfo class="taginfo" style="background-color: #35455D;">Location=QCIT</taginfo><taginfo class="taginfo" style="background-color: #F6A328;">Organization=XNTN</taginfo><taginfo class="taginfo" style="background-color: #09D71E;">Organization=XCIT</taginfo><taginfo class="taginfo" style="background-color: #901414;">Organization=XROA</taginfo><taginfo class="taginfo" style="background-color: #B210A2;">Space=XXSP</taginfo><taginfo class="taginfo" style="background-color: #D74709;">Geography=XXGE</taginfo><taginfo class="taginfo" style="background-color: #CDF628;">Geography=QGEO</taginfo><taginfo class="taginfo" style="background-color: #0999D7;">Geography=QNTR</taginfo><taginfo class="taginfo" style="background-color: #BFFCC6;">Geography=QREG</taginfo><taginfo class="taginfo" style="background-color: #6FC6EB;">Geography=XNAT</taginfo><taginfo class="taginfo" style="background-color: #EBDF6F;">Geography=XISL</taginfo><taginfo class="taginfo" style="background-color: #EBBA6F;">Event=XXEV</taginfo><taginfo class="taginfo" style="background-color: #FFE500;">Event=QHIS</taginfo><taginfo class="taginfo" style="background-color: #35455D;">Event=QTEM</taginfo><taginfo class="taginfo" style="background-color: #F6A328;">Event=QERA</taginfo><taginfo class="taginfo" style="background-color: #09D71E;">Event=QEVE</taginfo><taginfo class="taginfo" style="background-color: #901414;">Event=QDAY</taginfo><taginfo class="taginfo" style="background-color: #B210A2;">Time=XXTI</taginfo><taginfo class="taginfo" style="background-color: #D74709;">RelativeTime=XXRT</taginfo><taginfo class="taginfo" style="background-color: #CDF628;">Concrete=XXCO</taginfo><taginfo class="taginfo" style="background-color: #0999D7;">Concrete=QBUI</taginfo><taginfo class="taginfo" style="background-color: #BFFCC6;">Concrete=XARC</taginfo><taginfo class="taginfo" style="background-color: #6FC6EB;">Concrete=XHIS</taginfo><taginfo class="taginfo" style="background-color: #EBDF6F;">Concrete=XHOT</taginfo><taginfo class="taginfo" style="background-color: #EBBA6F;">Concrete=XRST</taginfo><taginfo class="taginfo" style="background-color: #FFE500;">Concrete=XSTA</taginfo><taginfo class="taginfo" style="background-color: #35455D;">Concrete=XTEM</taginfo><taginfo class="taginfo" style="background-color: #F6A328;">Concrete=XTHE</taginfo><taginfo class="taginfo" style="background-color: #09D71E;">Product=XXPR</taginfo><taginfo class="taginfo" style="background-color: #901414;">Product=QTHN</taginfo><taginfo class="taginfo" style="background-color: #B210A2;">Product=QBOO</taginfo><taginfo class="taginfo" style="background-color: #D74709;">Product=QCUL</taginfo><taginfo class="taginfo" style="background-color: #CDF628;">Product=QNEW</taginfo><taginfo class="taginfo" style="background-color: #0999D7;">Product=QECO</taginfo><taginfo class="taginfo" style="background-color: #BFFCC6;">Product=QCRE</taginfo><taginfo class="taginfo" style="background-color: #6FC6EB;">Product=QEDI</taginfo><taginfo class="taginfo" style="background-color: #EBDF6F;">Thing=XXTH</taginfo><taginfo class="taginfo" style="background-color: #EBBA6F;">Thing=QANM</taginfo><taginfo class="taginfo" style="background-color: #FFE500;">Thing=QPLT</taginfo><taginfo class="taginfo" style="background-color: #35455D;">Thing=QBHU</taginfo><taginfo class="taginfo" style="background-color: #F6A328;">Thing=QBAN</taginfo><taginfo class="taginfo" style="background-color: #09D71E;">Thing=QBPL</taginfo><taginfo class="taginfo" style="background-color: #901414;">Thing=QBHA</taginfo><taginfo class="taginfo" style="background-color: #B210A2;">Thing=QBAP</taginfo><taginfo class="taginfo" style="background-color: #D74709;">Thing=QBAL</taginfo><taginfo class="taginfo" style="background-color: #CDF628;">Thing=QBOD</taginfo><taginfo class="taginfo" style="background-color: #0999D7;">Thing=QSUS</taginfo><taginfo class="taginfo" style="background-color: #BFFCC6;">Thing=QCLT</taginfo><taginfo class="taginfo" style="background-color: #6FC6EB;">Thing=QFOO</taginfo><taginfo class="taginfo" style="background-color: #EBDF6F;">Thing=QVEH</taginfo><taginfo class="taginfo" style="background-color: #EBBA6F;">Thing=QCRA</taginfo><taginfo class="taginfo" style="background-color: #FFE500;">Thing=QPRD</taginfo><taginfo class="taginfo" style="background-color: #35455D;">Abstract=XXAB</taginfo><taginfo class="taginfo" style="background-color: #F6A328;">Abstract=QCUL</taginfo><taginfo class="taginfo" style="background-color: #09D71E;">Abstract=QNEW</taginfo><taginfo class="taginfo" style="background-color: #901414;">Abstract=QECO</taginfo><taginfo class="taginfo" style="background-color: #B210A2;">Abstract=QSLN</taginfo><taginfo class="taginfo" style="background-color: #D74709;">Abstract=QSRN</taginfo><taginfo class="taginfo" style="background-color: #CDF628;">Abstract=QLAN</taginfo><taginfo class="taginfo" style="background-color: #0999D7;">Abstract=QCRR</taginfo><taginfo class="taginfo" style="background-color: #BFFCC6;">Abstract=QINS</taginfo><taginfo class="taginfo" style="background-color: #6FC6EB;">Abstract=QART</taginfo><taginfo class="taginfo" style="background-color: #EBDF6F;">Abstract=QDIS</taginfo><taginfo class="taginfo" style="background-color: #EBBA6F;">Abstract=QCLO</taginfo><taginfo class="taginfo" style="background-color: #FFE500;">Abstract=XCAR</taginfo><taginfo class="taginfo" style="background-color: #35455D;">Abstract=XCOM</taginfo><taginfo class="taginfo" style="background-color: #F6A328;">Abstract=XMVI</taginfo><taginfo class="taginfo" style="background-color: #09D71E;">Abstract=XTVW</taginfo><taginfo class="taginfo" style="background-color: #901414;">Numeral=XXNU</taginfo>
+      </div>
+    <div class='a'><p>KB, <mark class="entity" style="background: #0999D7">금융</mark><span class="tagset">Abstract=QCRR</span> 1<mark class="entity" style="background: #EBDF6F">위</mark><span class="tagset">Thing=XXTH</span> 3년 <mark class="entity" style="background: #BFFCC6">만</mark><span class="tagset">Geography=QREG</span>에 탈환…<mark class="entity" style="background: #B210A2">신한</mark><span class="tagset">Person=XXPE</span>, 사모펀드 충당금에 발목빚투 열풍 역대급 실적…대손충당금이 1·2<mark class="entity" style="background: #EBDF6F">위</mark><span class="tagset">Thing=XXTH</span> 갈라우리금융만 <mark class="entity" style="background: #0999D7">순익</mark><span class="tagset">Abstract=QCRR</span> 감소◆빚투 열풍 <mark class="entity" style="background: #BFFCC6">속</mark><span class="tagset">Thing=QCLT</span> <mark class="entity" style="background: #EBBA6F">우리</mark><span class="tagset">Human=XXHU</span> 제외하고 역대급 실적=하나금융그룹도 <Time=XXEV>지난해</Time> 2<mark class="entity" style="background: #B210A2">조</mark><span class="tagset">Person=XXPE</span>6372억원의 당기순이익을 거두며 <mark class="entity" style="background: #EBDF6F">사상</mark><span class="tagset">Location=XXLO</span> 최대 실적을 내놨다.</p>
+<p><Time=XXEV>전년</Time> 대비 10 3% 늘어난 수치다.</p>
+<p>대손충당금 8473억원을 적립했지만 <mark class="entity" style="background: #CDF628">이자</mark><span class="tagset">Thing=QBOD</span> <mark class="entity" style="background: #0999D7">이익</mark><span class="tagset">Abstract=QCRR</span>(5<mark class="entity" style="background: #B210A2">조</mark><span class="tagset">Person=XXPE</span>8143억원)<mark class="entity" style="background: #EBDF6F">과</mark><span class="tagset">Abstract=QDIS</span> <mark class="entity" style="background: #0999D7">수수료</mark><span class="tagset">Abstract=QCRR</span> <mark class="entity" style="background: #0999D7">이익</mark><span class="tagset">Abstract=QCRR</span>(2<mark class="entity" style="background: #B210A2">조</mark><span class="tagset">Person=XXPE</span>2557억원)을 합한 <Oragnization=XXOR>그룹</Oragnization>의 핵심이익은 <Time=XXEV>전년</Time> 대비 1 8% 증가했다.</p>
+<p>반면 우리금융그룹은 4<mark class="entity" style="background: #6FC6EB">대</mark><span class="tagset">Group=QCLL</span> 금융지주 <mark class="entity" style="background: #FFE500">중</mark><span class="tagset">Human=QHUM</span>에 유일하게 웃지 못했다.</p>
+<p>우리금융은 <Time=XXEV>지난해</Time> 당기순이익 1<mark class="entity" style="background: #B210A2">조</mark><span class="tagset">Person=XXPE</span>3073억원을 기록해 <Time=XXEV>전년</Time> 대비 30 2% 감소했다.</p>
+<p>이자이익과 비이자이익 <mark class="entity" style="background: #CDF628">등</mark><span class="tagset">Thing=QBOD</span> 수익 핵심지표인 순영업수익은 <mark class="entity" style="background: #EBDF6F">약</mark><span class="tagset">Thing=XXTH</span> 6<mark class="entity" style="background: #B210A2">조</mark><span class="tagset">Person=XXPE</span>8000억원으로 <Time=XXEV>전년</Time> 수준을 유지했지만 다른 금융지주사들의 <mark class="entity" style="background: #0999D7">성과</mark><span class="tagset">Geography=QNTR</span> 핵심이었던 증권사를 보유하고 있지 않다는 <mark class="entity" style="background: #CDF628">점</mark><span class="tagset">Thing=QBOD</span>점이 악재였다.</p>
+<p>대손충당금도 7844억원 적립했다.</p></div>
+</body>
+</html>
